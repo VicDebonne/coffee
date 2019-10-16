@@ -1,6 +1,13 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
-  --anotherColor: #bada55;
-  --margin: 2rem;
+  --backgroundColor: #F9D2CB;
+  --darkColor: #212121;
+  --buttonColor: #A3F4DC;
+  
+  --fontsizeSmall: 12px;
+  --fontsizeMedium: 18px;
+  --fontsizeBig: 26px;
+
+  --marginSmall: 6px;
+  --marginMedium: 12px;
+  --marginBig: 30px;
 }
