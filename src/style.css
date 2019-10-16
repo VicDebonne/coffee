@@ -7,17 +7,20 @@ html {
   font-size: 62.5%;
 }
 
-/* stylelint-disable */
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-/* stylelint-enable */
 
 body {
   font-size: 2rem;
-  font-family: Georgia;
+  font-family: Roboto;
 }
 
-/** Dit is hier wat commentaar, dat er uit moet in production**/
+.h2-like{
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: var(--marginMedium);
+}
