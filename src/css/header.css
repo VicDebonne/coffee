@@ -2,7 +2,7 @@ h1 {
   font-size: var(--fontsizeBig);
   font-weight: 500;
   line-height: 28px;
-  width: ;
+  width: 236px;
 
   /* &::after {
     content: "";
@@ -15,6 +15,11 @@ h1 {
 }
 
 header{
+  background-image: url('../assets/img/plan-based-coffee@2x.png');
+  background-repeat: no-repeat;
+  background-size: 102px;
+  background-position: top 50% right var(--marginBig);
+
   background-color: var(--backgroundColor);
   padding: var(--marginBig);
 }
