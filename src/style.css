@@ -49,3 +49,25 @@ footer{
   height: 8.5rem;  
   margin: auto;
 }
+
+.emptystate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25rem;
+}
+
+.emptystate__content{
+  color: #9C9C9C;
+  padding-top: var(--marginMedium);
+}
+
+.content{
+  padding: var(--marginBig);
+}
+
+.title_mini{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
