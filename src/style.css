@@ -19,8 +19,33 @@ body {
 }
 
 .h2-like{
-  line-height: 14px;
+  line-height: 1.4rem;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
   font-size: var(--marginMedium);
+}
+
+footer{
+  background-color: var(--darkColor);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-tekst{
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #B7B7B7;
+  padding-top: .5rem;
+}
+
+.footer-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 8.5rem;  
+  margin: auto;
 }
